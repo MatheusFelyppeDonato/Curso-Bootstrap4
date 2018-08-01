@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+	<title>	Paginação </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style type="text/css">
+		.row{
+			margin-bottom: 10px;
+
+		}
+	</style>
+	
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+			<button type="button" class="btn btn-lg btn-danger" data-toggle="popover"
+			title="Título do popover" data-content="Uma frase qualquer para teste bla bla bla bla bla bla">
+			Clique aqui para abrir
+
+			</button>
+			</div>		
+		</div>
+		<p>data-content="Uma frase qualquer para teste bla bla bla bla bla bla"</p>
+		<p>data-content="Uma frase qualquer para teste bla bla bla bla bla bla"</p>
+		<p>data-content="Uma frase qualquer para teste bla bla bla bla bla bla"</p>
+
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+				data-placement="top" data-content="Uma frase qualquer para teste bla bla bla bla bla bla">
+					
+					Popover - Top
+				</button>
+			</div>
+
+
+		</div>
+
+
+			<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+				data-placement="right" data-content="Uma frase qualquer para teste bla bla bla bla bla bla">
+					
+					Popover - Right
+				</button>
+			</div>
+
+
+		</div>
+
+			<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+				data-placement="bottom" data-content="Uma frase qualquer para teste bla bla bla bla bla bla">
+					
+					Popover - Bottom
+
+					
+			<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+				data-placement="left" data-content="Uma frase qualquer para teste bla bla bla bla bla bla">
+					
+					Popover - Left
+				</button>
+			</div>
+
+
+		</div>
+				</button>
+			</div>
+
+
+		</div>
+
+	</div>
+
+		
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+  $('[data-toggle="popover"]').popover()
+   
+  })
+
+	</script>
+</html>
